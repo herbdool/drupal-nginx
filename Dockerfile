@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_TAG
 
-FROM wodby/php-nginx:${BASE_IMAGE_TAG}
+FROM herbdool/php-nginx:${BASE_IMAGE_TAG}
 
 ARG DRUPAL_VER
 
