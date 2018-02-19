@@ -5,7 +5,7 @@ NGINX_VER ?= 1.13
 TAG ?= $(DRUPAL_VER)-$(NGINX_VER)
 
 BASE_IMAGE_TAG = $(NGINX_VER)
-REPO = wodby/drupal-nginx
+REPO = herbdool/drupal-nginx
 NAME = drupal-$(DRUPAL_VER)-nginx-$(NGINX_VER)
 
 ifneq ($(BASE_IMAGE_STABILITY_TAG),)
